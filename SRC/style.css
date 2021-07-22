@@ -44,4 +44,58 @@ nav {
 /*Selector de id lleva siempre un hashtag antes del nombre del id*/
 #mainContent {
     border: 2px solid black;
+    padding: 15px;
+}
+
+#article_Main {
+    border: 5px dashed darkred;
+    padding: 15px;
+}
+
+#title-article_Main {
+    border: 5px solid darkslategray;
+    padding: 10px;
+    text-align: center;
+}
+
+#subtitle-article_Main {
+    border: 5px solid darkcyan;
+    padding: 5px;
+}
+
+.content-article_Main {
+    margin-top: 15px;
+    margin-bottom: 12px;
+    border: 6px dotted darkolivegreen;
+    padding: 8px;
+    text-align: justify;
+}
+
+/*Estilos del aside. Son parte de Main*/
+#aside_Main {
+    margin-top: 30px;
+    border: 5px dashed darkred;
+    padding: 13px;
+}
+
+#relacionado-aside_Main {
+    border: 5px dotted darkslateblue;
+    padding: 5px;
+    text-align: center;
+}
+
+.list-aside_Main {
+    margin-top: 10px;
+    border: 2px solid darkblue;
+}
+
+.list-item-aside_Main {
+    margin: 30px;
+    border: 3px dashed darkmagenta;
+    padding: 15px;
+}
+
+.link-aside_Main {
+    border: 2px solid darkblue;
+    padding: 5px;
 }
